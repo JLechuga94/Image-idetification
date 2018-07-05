@@ -15,6 +15,8 @@
 		7DB1568920EE073D00367ABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB1568720EE073D00367ABF /* LaunchScreen.storyboard */; };
 		7DB1569420EE073E00367ABF /* AR_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB1569320EE073E00367ABF /* AR_AITests.swift */; };
 		7DB1569F20EE073E00367ABF /* AR_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB1569E20EE073E00367ABF /* AR_AIUITests.swift */; };
+		7DB156AD20EE07FC00367ABF /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB156AC20EE07FC00367ABF /* placeholder.png */; };
+		7DB156AF20EE081700367ABF /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7DB156AE20EE081700367ABF /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7DB1569A20EE073E00367ABF /* AR_AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_AIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB1569E20EE073E00367ABF /* AR_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_AIUITests.swift; sourceTree = "<group>"; };
 		7DB156A020EE073E00367ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB156AC20EE07FC00367ABF /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../../../../Downloads/CoreMLVision/CoreMLVision/placeholder.png; sourceTree = "<group>"; };
+		7DB156AE20EE081700367ABF /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../../../Downloads/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		7DB1567A20EE073D00367ABF /* AR_AI */ = {
 			isa = PBXGroup;
 			children = (
+				7DB156AC20EE07FC00367ABF /* placeholder.png */,
 				7DB1567B20EE073D00367ABF /* AppDelegate.swift */,
 				7DB1567D20EE073D00367ABF /* ViewController.swift */,
 				7DB1567F20EE073D00367ABF /* Main.storyboard */,
+				7DB156AE20EE081700367ABF /* GoogLeNetPlaces.mlmodel */,
 				7DB1568520EE073D00367ABF /* Assets.xcassets */,
 				7DB1568720EE073D00367ABF /* LaunchScreen.storyboard */,
 				7DB1568A20EE073D00367ABF /* Info.plist */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DB1568920EE073D00367ABF /* LaunchScreen.storyboard in Resources */,
+				7DB156AD20EE07FC00367ABF /* placeholder.png in Resources */,
 				7DB1568620EE073D00367ABF /* Assets.xcassets in Resources */,
 				7DB1568120EE073D00367ABF /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 				7DB1567E20EE073D00367ABF /* ViewController.swift in Sources */,
 				7DB1567C20EE073D00367ABF /* AppDelegate.swift in Sources */,
 				7DB1568420EE073D00367ABF /* AR_AI.xcdatamodeld in Sources */,
+				7DB156AF20EE081700367ABF /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 237J8UY6UT;
 				INFOPLIST_FILE = AR_AI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 237J8UY6UT;
 				INFOPLIST_FILE = AR_AI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
